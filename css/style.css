@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+/* .big_container{
+    background: linear-gradient(to right, rgb(245, 245, 91), rgb(38, 211, 38));
+    border: 2px solid tomato;
+    border-radius: 5px;
+    height: 100%;
+    width: 36rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+} */
+.container{
+    background-color: rgba(239, 242, 243,0.7);
+    border: 1.5px solid orange;
+    border-radius: 5px;
+    height: 100%;
+    width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative
+}
+.header{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.field{
+    margin-top: 4rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+input[type="number"]{
+    background-color: #f4f8f9;
+    /* border-radius: 5px; */
+    border: none;
+    border-bottom: 2px solid rgb(148, 144, 144);
+    font-size: 0.9rem;
+    margin: 0.5rem 0rem;
+    height: 1.8rem;
+    width: 20rem;
+}
+input[type="number"]:focus{
+    outline: none;
+    border-color: rgb(109, 231, 109);
+}
+/* input[type="text"]:active{
+    border: 1px solid tomato;
+} */
+button[type="btn"]{
+    color: white;
+    border: none;
+    background-color: rgb(76, 194, 76);
+    /* border-color: rgb(76, 194, 76); */
+    border-radius: 5px;
+    height: 2rem;
+    width: auto;
+    margin-top: 4rem;
+}
+button[type="btn"]:hover{
+    background-color: rgb(17, 167, 17);
+    cursor: pointer;
+}
+.bmi_image img{
+    margin-top: 5rem;
+    height: 10rem; 
+    width: 35rem;
+}
+
+@media (max-width:460px) {
+    .container{
+        height: 100%;
+        width: 27rem;
+    }
+    .header{
+        font-size: 2rem;
+    }
+    .field{
+        font-size: 1.05rem;
+    }
+    input[type="number"]{
+        font-size: 0.9rem;
+        height: 1.7rem;
+        width: 16rem;
+    }
+    .bmi_image img{
+ 
+        width: 27rem;
+    }
+    @media (max-width:420px) {
+        .container{
+            height: 100%;
+            width: 25rem;
+        }
+        .header{
+            font-size: 1.9rem;
+        }
+            
+        input[type="number"]{
+            font-size: 0.6rem;
+            height: 1.6rem;
+            width: 14rem;
+        }
+        .field{
+            font-size: 0.8rem;
+        }
+        .bmi_image img{ 
+            width: 25rem;
+        }
+        @media (max-width:360px){
+            .container{
+                
+                height: 100%;
+                width: 22rem;
+               
+            }
+            .header{
+                font-size: 1.5rem;
+            }
+            .field{
+                font-size: 0.6rem;
+            }
+            input[type="number"]{
+                font-size: 0.5rem;
+                height: 1.4rem;
+                width: 11rem;
+            }
+            button[type="btn"]{
+                height: 1.7rem;
+                width: auto;
+            }
+            .bmi_image img{ 
+                width: 22rem;
+            }
+        }
+    
+    }
+
+}
+

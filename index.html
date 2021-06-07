@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=IBM+Plex+Serif:ital@1&family=Orbitron&display=swap" rel="stylesheet"> `
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+</head>
+<body>
+    <div class="big_container">
+        <div class="container">
+            <!-- <div class="bgpic">
+                <img src="images/beat.jpg" alt="">
+            </div> -->
+            <div class="header">
+                BMI CALCULATOR
+            </div>
+            <form class="field">
+                <label for="">HEIGHT (m)</label><br>
+                <input id="height" type="number" placeholder="Enter your height" min="1"><br>
+                <label for="">WEIGHT (kg)</label><br>
+                <input id="weight" type="number" placeholder="Enter your weight" min="1"><br>
+            
+                
+                <label class="display"><b id="bmi_index"></b></label><br>
+                
+                <button type="btn" id="calculate" onclick="bmi()">CALCULATE BMI</button>
+               
+            </form>
+    
+            <div class="bmi_image">
+                <img src="images/bmi_image.jpg" alt="">
+            </div>
+    
+        </div>
+    </div>
+    
+    
+
+    <script src="js/app.js"></script>
+</body>
+</html>
+
